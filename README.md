@@ -23,10 +23,10 @@ eventually be moved to this repository.
 
 ## Notes
 
-This repository contains the latest snapshot of the VeriWeb
-development source code from our local repository. As such, the code
-may differ in certain places from the description in the
-publication. Known differences are:
+** VeriWeb is not under active development. ** This repository
+contains the latest snapshot of the VeriWeb development source code
+from our local repository. As such, the code may differ in certain
+places from the description in the publication. Known differences are:
 
 * Mechanical Turk doesn't work in this version of the code.
 * Object invariant inference and handling 
@@ -36,7 +36,7 @@ publication. Known differences are:
 If you'd like to try building and running VeriWeb, please contact
 me. The basic instructions are:
 
- 1. Deploy and run the LibVeriAsa server 
+ 1. Deploy and run the verification server
  2. Deploy VeriWeb via [Apache Tomcat](https://tomcat.apache.org/)
 
 In practice, the server requires a very specific directory structure
@@ -47,7 +47,7 @@ which I haven't gotten around to documenting yet.
 Because VeriWeb uses ESC/Java2 under the hood, it only supports Java
 1.4 programs. I created an [Eclipse
 plug-in](https://code.google.com/a/eclipselabs.org/p/java-downconvert/)
-to automatically converting Java 1.5 and 1.6 projects to Java 1.4.
+to automatically convert Java 1.5 and 1.6 projects to Java 1.4.
 
 ## License
 
