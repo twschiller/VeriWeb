@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="edu.washington.cs.plse.verieclipse.preferences.VeriEclipsePreferences"
+            id="verieclipse.preferences.VeriEclipsePreferences"
+            name="VeriEclipse Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="edu.washington.cs.plse.verieclipse.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Sample Action SetAction Set"
+            visible="true"
+            id="VeriEclipse.actionSet">
+         <menu
+               label="VeriWebMenu"
+               id="veriMenu">
+            <separator
+                  name="veriGroup">
+            </separator>
+         </menu>
+         <action
+               label="Create Project Files"
+               icon="icons/sample.gif"
+               class="edu.washington.cs.plse.verieclipse.actions.GenerateSubproblemsAction"
+               tooltip="Create Project Files"
+               menubarPath="veriMenu/veriGroup"
+               toolbarPath="veriGroup"
+               id="verieclipse.actions.SampleAction">
+         </action>
+         <action
+               class="edu.washington.cs.plse.verieclipse.actions.DumpInformationAction"
+               icon="icons/sample.gif"
+               id="verieclipse.actions.InfoDumpAction"
+               label="Dump Documentation"
+               menubarPath="veriMenu/veriGroup"
+               toolbarPath="veriGroup"
+               tooltip="Dump Project Documentation">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

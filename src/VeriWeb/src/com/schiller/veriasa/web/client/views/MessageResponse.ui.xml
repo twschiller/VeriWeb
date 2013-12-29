@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:VerticalPanel width="300px" height="100px">
+		<g:HTML>
+			<span style="issue-msg"><p>Please describe (in English) why the comment or suggestion was incorrect, or insufficient</p></span>
+		</g:HTML>
+		
+		<g:TextArea ui:field="comment" width="275px" height="100px"/>
+		
+		<g:HorizontalPanel>
+			<g:Button enabled="false" ui:field="okButton">OK</g:Button>
+			<g:Button enabled="true" ui:field="cancelButton">Cancel</g:Button>
+		</g:HorizontalPanel>
+	</g:VerticalPanel>
+</ui:UiBinder> 

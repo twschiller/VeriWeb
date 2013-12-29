@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalQuestion xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2006-07-14/ExternalQuestion.xsd">
+   <ExternalURL>http://184.106.232.101:8080/VeriWeb/VeriWeb.html?srv=mturk&amp;proj=${project}</ExternalURL>
+   <FrameHeight>700</FrameHeight>
+</ExternalQuestion>
+

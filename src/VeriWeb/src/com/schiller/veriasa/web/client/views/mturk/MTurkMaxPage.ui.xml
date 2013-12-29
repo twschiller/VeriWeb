@@ -1,0 +1,40 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.preview-header{
+			font-size: 24px;
+			font-style: bold;
+		}
+		.preview-main{
+			font-size: 1.2em;
+		}
+	</ui:style>
+	<g:HTMLPanel>
+	<table width="100%">
+		<tr>
+			<td align="center">
+				<table width="500px">
+					<tr>
+						<td align="center">
+							<span class='{style.preview-header}'>Thank you for participating!</span>
+						</td>
+					</tr>
+					<tr>
+						<td height="30px" valign="center">
+							<hr />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<g:SimplePanel ui:field="formPart"/>
+						</td>
+					</tr>
+					
+				</table>
+			</td>
+		</tr>
+
+	</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 

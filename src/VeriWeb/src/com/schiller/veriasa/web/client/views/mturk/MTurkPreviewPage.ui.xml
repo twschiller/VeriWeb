@@ -1,0 +1,105 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.preview-header{
+			font-size: 24px;
+			font-style: bold;
+		}
+		.preview-main{
+			font-size: 1.2em;
+		}
+		
+	</ui:style>
+	<g:HTMLPanel>
+
+	<table width="100%">
+		<tr>
+			<td align="center">
+				<g:HTMLPanel ui:field="welcome">
+			
+				<table width="500px">
+					<tr>
+						<td align="center">
+							<span class='{style.preview-header}'>Welcome!</span>
+						</td>
+					</tr>
+					<tr>
+						<td height="30px" valign="center">
+							<hr />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<g:HTML ui:field="atmRate" />
+							
+							<p><span class='{style.preview-main}'>
+							Answering questions the may be difficult at first, but your speed will improve
+							as you answer more questions. 
+							</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p><span class='{style.preview-main}'>
+							<b>This HIT displays best in Firefox and Chrome at a resolution of at least 1024x768.</b> 
+							To use Internet Explorer, you must enable compatibility mode.
+							</span></p>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<g:Button ui:field="continueBtn">Instructions</g:Button>
+						</td>
+					</tr>
+				</table>
+				</g:HTMLPanel>
+				<g:HTMLPanel ui:field="instr" visible="false">
+			
+				<table width="500px">
+					<tr>
+						<td align="center">
+							<span class='{style.preview-header}'>Basic Instructions</span>
+						</td>
+					</tr>
+					<tr>
+						<td height="30px" valign="center">
+							<hr />
+						</td>
+					</tr>
+					<tr>
+						<td align="left">
+							<p><span class='{style.preview-main}'>
+							This HIT asks you to solve two types of problems: <b>precondition</b> problems ask you what must be true
+							for the method to run without crashing; <b>postcondition</b> problems ask you about must
+							be true when the method returns or throws an error.
+							</span></p>
+							
+							<p><span class='{style.preview-main}'>Some problems cannot be solved with the shown information. In this case,
+							you "solve" the problem (and earn money) by telling us what piece of information is missing:</span></p>
+							
+							<ul>
+								<li><span class='{style.preview-main}'>if a condition you need is not listed: click the "Condition Not Listed" button</span></li>
+								<li><span class='{style.preview-main}'>if the system doesn't know enough about what is true after a method is called: bring
+								up the method's documentation and click the "Add Postcondition" button</span></li>
+								<li><span class='{style.preview-main}'>if one of the called methods condition's are too restrictive: bring up the 
+								method's documentation by hovering you mouse over method and then click the "Bad" button next to the condition</span></li>
+							</ul>
+							
+							<p><span class='{style.preview-main}'>Tip: you can resize the information panes clicking and dragging the separators</span></p>
+						
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<g:Button ui:field="previewBtn">Enter Preview</g:Button>
+						</td>
+					</tr>
+				</table>
+				</g:HTMLPanel>
+			</td>
+		</tr>
+
+	</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 

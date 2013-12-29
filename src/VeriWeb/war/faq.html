@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>VeriWeb: Frequently Asked Questions</title>
+    <style type="text/css">
+      h2 {
+          font-size: 1.2em;
+      }
+      p {
+          font-size: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+
+<h1><a name="faq">Frequently Asked Questions</a></h1>
+
+<ul>
+  <li><a href="#def">What are preconditions and postconditions?</a></li>
+  <li><a href="#satisfy-pre">I can't satisfy one of the method's
+      preconditions, what should I do?</a></li>
+  <li><a href="#observers">Why doesn't the system know anything about
+      the methods that are called by this method?</a></li>
+  <li><a href="#observer-ex">Why does the system think that a method
+      that is called by this method will throw an exception?</a></li>
+  <li><a href="#messages">What are these messages from other methods?</a></li>
+  <li><a href="#boxes">What are these colored boxes that contain conditions?</a></li>
+  <li><a href="#selectreq-messages">Select Requires: What are these
+      messages above?</a></li>
+  <li><a href="#where-condition">Select Requires: Where is the
+      condition I need?</a></li>
+</ul>
+
+<hr>
+<h2><a name="def">What are preconditions and postconditions?</a></h2> 
+ 
+<p>A precondition is an expression that must be true when a method is
+called. For example, the following method has the
+pre-condition <tt>x != null</tt>:</p>
+ 
+<pre> 
+String convertToString(Integer x){ return x.toString(); }
+</pre> 
+ 
+<p>because if <code>x</code> 
+is <code>null</code>, <code>x.toString()</code> will cause
+a <code>NullPointerException</code>.</p> 
+ 
+<p>A postconditions is an expression that describes what must be true
+when a method returns. For example, the following method has the
+postcondition <tt>\result == (x == 5)</tt>:</p> 
+ 
+<pre> 
+boolean isFive(int x){ return x == 5; }
+</pre> 
+ 
+<p>because the method returns whether or not <code>x</code> 
+equals <code>5</code>.</p> 
+				
+<p><b>NOTE: Preconditions and postconditions can only refer to method
+parameters and object fields (member variables).</b></p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="satisfy-pre">I can't satisfy one of the method's
+preconditions, what should I do?</a></h2>
+					
+<p>Either (1) the condition you need isn't listed or (2) the
+precondition is bad:</p>
+
+<ol>
+  <li>A precondition you need for the current method isn't listed:
+    take a look at our answer to the
+    question <a href="#where-condition">Where is the condition I
+    need?</a></li>
+  <li>The precondition is bad, view the documentation
+    for the corresponding method and click the "Mark as Bad" button
+    next to the pre-condition. We'll ask you to describe the bad
+    condition so that we can tell someone (maybe even you) to remove
+    it.</li>
+</ol>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="observers">Why doesn't the system know anything about the
+methods that are called by this method?</a></h2>
+					
+<p>The system can't always guess conditions automatically, so we need
+people like you add them for us. To view what the system knows about a
+method's conditions, view the method's documentation by hovering your
+mouse over the method name. You can also toggle the inline
+documentation for some methods by clicking on the method name &mdash;
+this will show both facts that that system hasn't been able to prove
+yet and facts that are known to be false.</p>
+					
+<p>It could be that the system doesn't know that calling the method
+preserves / establishes the property you're interested in. To tell it,
+view the documentation for the method and click the "Add" button next
+to the list of preconditions; we'll ask you to describe the condition
+so that we can tell someone (maybe even you) to add it.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="observer-ex">Why does the system think that a method that
+is called by this method will throw an exception?</a></h2>
+
+<p>For methods that throw exceptions, the system may not fully
+understand under what circumstances an exception is thrown. To tell
+it, view the documentation for the method and click the "Add" button
+next to the exceptional postconditions; we'll ask you to describe the
+condition so that we can tell someone (maybe even you) to add it.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="messages">What are these messages from other methods?</a></h2>
+
+<p>A user working on a different problem thought that this method was
+either missing a condition or that one of the conditions was
+wrong. The messages explain which conditions they thought were
+missing or incorrect.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="boxes">What are the colored boxes that contain
+conditions?</a></h2>
+			
+<p>The conditions you submit are displayed here; we'll sometimes try
+out some conditions automatically for you, too.</p>
+
+<p>Conditions in green have been accepted by the system, whereas
+conditions in red have been rejected by the system. A blue information
+icon "i" will appear next to a condition when we can tell you why the
+condition was rejected.  Hover your mouse over the information icon to see
+the reason.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="selectreq-messages">Select Requires: What are these
+messages above?</a></h2>
+
+<p>A user working on a different problem thought that one of the
+preconditions for this method was too restrictive (or just plain
+wrong). The messages above show which precondition they thought was
+bad along with an explanation of why they thought it was bad.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+<hr>
+<h2><a name="where-condition">Select Requires: Where is the condition
+I need?</a></h2>
+
+<p>The conditions shown above were either guessed by us or entered by
+another user. If you think a necessary condition is missing, click the
+"Condition Not Listed" button; we'll ask you to describe the missing
+condition so that we can tell someone else (maybe even you) to add
+it.</p>
+
+<p><a href="#faq">Back to top</a></p>
+
+
+  </body>
+</html>

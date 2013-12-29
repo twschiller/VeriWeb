@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>VeriWeb: Project Selection</title>  
+  </head>
+
+  <body>
+	<h1>Welcome to VeriWeb</h1>
+	<hr/>
+	<p>Please enter a username and select a project to begin.</p>
+	<form name="startform" action="VeriWeb.html" method="GET">
+		<input type="hidden" name="srv" value="vworker"/>
+		<table cellpadding="4px" cellspacing="0px">
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>Project:</td>
+				<td>
+					<select name="proj">
+						<option>FixedSizeSet</option>
+						<!-- <option>StackAr</option> -->
+ 						<option>QueueAr</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Collaborative verification:</td><td><input type="checkbox" name="share" value="true"/></td>
+			</tr>
+			<tr>
+				<td>Private collaboration session name<br/>(optional):</td><td> <input type="text" name="shareKey"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<input type="submit" value="Verify!"/>
+		<input type="hidden" name="srv" value="vworker"/>
+	</form>	
+  </body>
+</html>

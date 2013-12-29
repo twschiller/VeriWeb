@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"  xmlns:view='urn:import:com.schiller.veriasa.web.client.views'>
+	
+	<ui:style>
+		.sel-mode{ font-size: 1em; padding-left: 2px; padding-top: 4px; padding-bottom:4px}
+	</ui:style>
+	
+	<g:VerticalPanel ui:field="main">
+	
+		<g:HTMLPanel styleName="{style.sel-mode}">
+			Select writing mode: <g:RadioButton name="mode" ui:field="dndBtn">Drag and Drop</g:RadioButton>&nbsp;&nbsp;<g:RadioButton  name="mode" ui:field="typingBtn">Typing</g:RadioButton>
+		
+		</g:HTMLPanel>
+	
+		<g:HTML ui:field="boxExplain"><a href="faq.html#boxes" class="info-link" target="blank">
+		What are these boxes below?</a></g:HTML>
+		 
+		<g:FlexTable ui:field="specTable"/>
+		
+	</g:VerticalPanel>
+	
+</ui:UiBinder> 

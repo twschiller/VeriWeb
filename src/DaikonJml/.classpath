@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/tws/lib/apache-log4j-1.2.16/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/home/tws/lib/daikon.jar"/>
+	<classpathentry kind="lib" path="/home/tws/workspaces/veriasa/VeriWeb/war/WEB-INF/lib/jml-release.jar"/>
+	<classpathentry kind="lib" path="/home/tws/lib/guava-r10/guava-10.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/tws/workspaces/veriasa/VeriWeb/war/WEB-INF/lib/gxt-2.2.5-gwt22.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

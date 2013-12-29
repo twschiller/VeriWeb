@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+		<g:HTML width="500px">
+			<p><span class="subview-header">Instructions:</span></p>
+		</g:HTML>
+		
+		<g:HTML width="500px" ui:field="mainText"/>
+		
+		<g:HTML height="10px">&nbsp;</g:HTML>
+			
+		<g:HTML width="500px" ui:field="paletteText" visible="false">
+			<p><span class="instruct">Some fragments have yellow holes that must be filled with other fragments. To fill a hole,
+				just drop a fragment onto it; you can later remove the fragment by clicking and dragging the fragment. NOTE: You can
+				only fill fragment holes in the scratch pad and condition box.</span></p>
+		</g:HTML>
+		
+		<g:HTML height="10px">&nbsp;</g:HTML>
+		<g:HTML width="500px" ui:field="reqText" visible="false">
+			<p><span class="instruct">You are done when there are no more errors detected; you can view errors
+					by hovering your mouse over code that is <span class="has-warning">underlined in red</span>.</span></p>	
+		</g:HTML>
+		<g:HTML height="10px">&nbsp;</g:HTML>
+		<g:HTML width="500px">
+			<p><span class="instruct">You can view a method or type's documentation by
+				hovering your mouse over code that is <span class="has-doc">underlined in blue</span>.</span></p>
+			<p>&nbsp;</p>
+			<p><span class="instruct">Additionally, you can toggle the inline specifications for a method
+				by clicking methods that are shown as <span class="has-doc-toggle">buttons</span>.</span></p>
+				
+		</g:HTML>
+	</g:HTMLPanel>
+</ui:UiBinder> 

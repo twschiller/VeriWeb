@@ -1,0 +1,38 @@
+CRITICAL===
+
+
+HIGH===
+
++ Parse anything w/ highlighting
+
+MEDIUM===
+
++ Clear scratch pad button
++ Expression substitution for inlined conditions
++ Show false expressions??
++ Transfer between dnd and writer
+
+LOW===
+
++ Realign add / remove buttons in spec
++ Known pre-conditions formatting
++ Fix scratch pane so that scroll bar disappears
+
+=========   IN TESTING ===========
+
++ Conditions after new keyword
++ Exceptional post conditions in inlined spec
++ Change doc toggle button style when toggled [ NEED TO TEST ON IE ]
+
+=========    FIXED   ==============
+Don't show spec / toggle for functions in Check.java: uses a hack that looks for Check. in the function signature
+
++ Daikon trace checking
++ Blame assignment for forall in Daikon traces
++ add copy to scratch pad instruction in doc pane
++ Remembering expansion for toggling unproven assertions need to be unique for each
++ Show known pre-conditions
++ add check post conditions method in doc pane: the regular expression became incorrect
++ Link questions to FAQ page
++ Highlighting of fragment parts
++ Move message center to information pane

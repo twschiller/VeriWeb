@@ -1,0 +1,2 @@
+serviceClass: com.schiller.veriasa.web.client.VeriService
+path: 47002A6B7609C2714CC1D6244BE371FE.gwt.rpc

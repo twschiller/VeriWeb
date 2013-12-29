@@ -1,0 +1,19 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.summary{ }
+		.params-header{ font-size: 1.1em; font-weight: bold;}
+		.returns-header{ font-size: 1.1em; font-weight: bold;}
+	</ui:style>
+	<g:VerticalPanel>
+		<g:Label ui:field="summary" styleName="{style.summary}" />
+		
+		<g:Label ui:field="paramsHeader" styleName="{style.params-header}">Parameters:</g:Label>
+		<g:VerticalPanel ui:field="params"/>
+
+		<g:Label ui:field="returnsHeader" styleName="{style.returns-header}">Returns:</g:Label>		
+		<g:Label ui:field="returnDoc"/>		 
+			
+	</g:VerticalPanel>
+</ui:UiBinder> 

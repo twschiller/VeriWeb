@@ -1,0 +1,554 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+div.thread-name{
+  border: 1px solid;
+  border-color: black;
+  padding: 5px;
+  margin-top: 3px;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+.img-btn{
+	cursor:hand; cursor:pointer;
+}
+.img-help{
+	cursor:help;
+}
+.img-wait{
+	cursor:help;
+}
+
+.info-bar-preview { background-color: #C11B17; color:white}
+
+.code-spec-table{
+	border: 2px solid;
+	border-color:black;	
+}
+
+.code-table{
+	padding: 0px;
+	margin: 0px;	
+}
+.code-cell{
+	padding: 0px;
+	margin: 0px;	
+}
+
+.doc-toggle{
+	background-color: #99CCFF;
+	margin: 5px;
+}
+.doc-toggle-hover{
+	background-color: blue;
+	margin: 5px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.source-code{
+	font-family:monospace;
+}
+
+/** Used for listing known preconditions **/
+.provided-spec{
+	border: 1px solid;	
+	padding: 5px; 
+	width: 100%;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-color: #CCFFCC;
+	margin-top: 4px;
+	font-family:monospace;
+}
+
+.doc-sec-head{
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid 2px;
+	border-left-style:none;
+}
+
+.lfloat{
+	float:left;	
+}
+
+.hover-hole{
+	border: 1px dotted;
+	padding: 5px;
+	background-color: blue;
+	
+	float: left; 
+    white-space: nowrap; 
+}
+
+.solution{
+	border: 2px solid;
+	border-color: black;
+}
+
+.trash{
+	border: 2px solid;
+	border-color: red;
+}
+
+
+
+.outlined{
+
+}
+.outlined2{
+
+}
+.target{
+	border: 1px dotted;
+	padding: 5px;
+	background-color: #FFFFCC;
+	float: left; 
+    white-space: nowrap; 
+}
+
+.hole{
+	border: 1px dotted;
+	padding: 5px;
+	float: left; 
+    white-space: nowrap; 
+    background-color: #FFFFCC;
+}
+.inv-flow{
+	border: 2px solid;
+	border-color: black;
+}
+
+.spacer{	
+	padding: 5px;
+	float: left; 
+    white-space: nowrap; 
+}
+.inv-local{
+	border: 1px solid;
+	border-color:blue;
+	padding: 5px;
+	font-family:monospace;
+	float: left; 
+    white-space: nowrap; 
+    
+}
+.inv-free{
+	border: 1px solid;
+	border-color:blue;
+	padding: 5px;
+	font-family:monospace;
+	background-color: #C0C0C0;
+	
+	float: left; 
+    white-space: nowrap; 
+}
+.inv-highlight{
+	background-color: yellow;
+}
+.inv-arg{
+	border: 1px solid;
+	border-color:blue;
+	padding: 5px;
+	font-family:monospace;
+	float: left; 
+    white-space: nowrap; 
+}
+.inv-fixed{
+	border: 1px solid;
+	padding: 5px;
+	border-color:green;
+	font-family:monospace;
+	float: left; 
+    white-space: nowrap; 
+}
+
+.user-spec-pending{
+	background-color: #FFFFCC;
+	border: 1px dotted;
+	padding: 5px;
+	font-family:monospace;
+}
+
+
+.user-spec-good{
+	background-color: #CCFFCC;
+	border: 1px dotted;
+	padding: 5px;
+	font-family:monospace;
+}
+
+
+.user-spec-bad{
+	background-color: #FF9999;
+	border: 1px dotted;
+	padding: 5px;
+	font-family:monospace;
+}
+
+.user-spec-syntax-bad{
+	background-color: #FF9999;
+	border: 1px dotted;
+	padding: 5px;
+	font-family:monospace;
+}
+
+.pre-inactive{
+	border: 1px solid;
+	padding-top:5px; 
+	padding-right:0px; 
+	padding-bottom:5px; 
+	padding-left:5px; 
+	font-family:monospace;
+}
+
+.pre-active{
+	background-color: #BAD0EF;
+	border: 1px solid;
+	padding-top:5px; 
+	padding-right:0px; 
+	padding-bottom:5px; 
+	padding-left:5px; 
+	font-family:monospace;
+}
+
+.doc-panel{
+	border: 1px solid;	
+		
+}
+
+.subview-header{
+	font-size: 1.2em;	
+  	font-weight: bold;
+}
+.subsubview-header{
+	font-size: 1.1em;	
+  	font-weight: bold;
+}	
+
+.fun-name{
+	font-size: 1.5em;	
+  	font-weight: bold;
+	
+}
+
+.hidden-spec{
+	visibility:hidden;	
+}
+.shown-spec{
+	visibility:visible;	
+}
+
+.hasinfo{
+	font-color: blue;
+	font-weight: bold;	
+	text-decoration: underline;
+	cursor: help;
+}
+
+.instruct{
+	
+}
+
+.param-doc{
+	
+}
+
+.doc-spec-header{
+	font-size: 1.1em;
+	font-weight: bold;	
+}
+
+.doc-spec-header-bad{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: red;	
+}
+
+
+.doc-spec{
+	
+}
+
+.tip-header{
+	font-size: 1.2em;
+}
+.tip-body{
+	font-size: 1.1em;
+}
+
+.key-main{
+	font-size: 1.2em;
+}
+.mturk-key{
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+.key-header {
+	font-size: 24px;
+	font-style: bold;
+}
+
+.server-error-header{
+	font-size: 24px;
+	font-style: bold;
+}
+.server-error-body{
+	font-size: 1.2em;
+}
+
+.job-inactive-header{
+	font-size: 24px;
+	font-style: bold;
+}
+.job-inactive-body{
+	font-size: 1.2em;
+}
+
+
+.warning-head{
+	color: red;
+	font-weight: bold;	
+}
+
+.warning-code{
+	font-family:monospace;
+}
+
+.has-doc{
+	color: blue;
+	font-weight: bold;	
+	text-decoration: underline;
+	cursor: help;
+}
+
+.has-doc-toggle{
+	color: blue;
+	font-weight: bold;	
+	border: 2px outset;
+	cursor:hand; cursor:pointer;
+	padding: 0px;
+}
+.has-doc-toggle-pressed{
+	color: blue;
+	background-color:#CCCCFF;
+	font-weight: bold;	
+	border: 2px inset;
+	cursor:hand; cursor:pointer;
+	padding: 1px;
+}
+
+.toggle-unproven{
+	cursor:hand; cursor:pointer;
+}
+
+.has-warning{
+	color: red;
+	text-decoration: underline;
+	cursor: help;
+}
+
+.msg-center{
+	margin-left: 5px;
+}
+.msg-center-left{
+	margin-left: 5px;
+}
+
+
+.comment-box{
+	border: 1px solid;	
+	padding: 6px; 
+	width: 100%;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-color:#F2F2F6;
+	margin-top: 4px;
+}
+
+.comment-src{
+	font-weight: bold;	
+}
+
+
+
+.foo{
+	border: 2px solid;
+	border-color: red;
+}
+
+.param-name{
+	font-weight:bold;	
+}
+
+.doc-inv{
+	font-family:monospace;
+	border:1px dotted;
+	padding:4px; 
+}
+
+.unproven-post{
+	font-family:monospace;
+	color:#999999;
+	float:left;	
+}
+.good-post{
+	font-family:monospace;
+	color:green;
+}
+
+.good-pre{
+	font-family:monospace;
+	color:green;
+}
+.bad-pre{
+	font-family:monospace;
+	color:red;
+}
+.bad-post{
+	font-family:monospace;
+	color:red;
+}
+
+.info-link{
+	 text-decoration:underline; 
+	 color: #555555;
+	 font-size:1.0em;
+}
+.info-link:hover{
+	 text-decoration:underline; 
+	 font-size:1.1em;
+	 color: #555555;
+	 cursor:help;
+	 font-weight:bold;
+}
+
+.info-bar-bold{
+	color: white;
+	font-size:1.0em;
+	font-weight:bold;
+}
+
+.preview-main{
+	font-size: 1.2em;
+}
+.preview-rate{
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+
+.info-bar-link{
+	 text-decoration:underline; 
+	 color: white;
+	 font-size:1.0em;
+}
+.info-bar-linkbb{
+	 font-weight:bold;
+}
+.info-bar-link:visited{
+	 text-decoration:underline; 
+	 color: white;
+	 font-size:1.0em;
+}
+.info-bar-link:hover{
+	text-decoration:underline; 
+	font-size:1.1em;
+	color: white;
+	cursor:hand; cursor:pointer;
+	font-weight:bold;
+}
+
+
+.feedback-header{
+	font-size: 1.3em;
+	font-weight:bold;
+}
+.feedback-msg{
+	font-size: 1.1em;
+}
+.feedback-question{
+	font-size: 1.1em;
+}
+
+.freewrite-inv{
+	resize: vertical;
+	font-family:monospace;
+}
+.freewrite-frag{
+	font-family:monospace;
+}
+.freewrite-varTable{
+	border:2px solid;
+}
+
+.dyn-head{
+	font-weight:bold;
+}
+.dyn-elt{
+	font-family:monospace;
+}
+
+.reg-spec-def{
+	font-family:monospace;
+}
+.reg-spec-high{
+	background-color:#D3D3D3;
+	font-family:monospace;
+}
+
+.spec-def{
+	font-family:monospace;
+	font-size: 1.1em;
+	cursor:help;
+}
+.spec-high{
+	font-weight:bold;
+	background-color:yellow;
+	font-size: 1.1em;
+	cursor:help;
+	font-family:monospace;
+}
+
+.message-alert-content{
+  	margin: 7px;
+}
+
+.message-alert-button{
+	margin-bottom: 3px;  
+}
+
+.message-alert-panel{
+	margin: 7px;
+}
+
+

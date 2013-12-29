@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:view='urn:import:com.schiller.veriasa.web.client.views'>
+
+	<g:VerticalPanel verticalAlignment="ALIGN_TOP">
+		<g:Label ui:field="bottomAnchor" />
+		<g:HTML>
+			<span class="subview-header">Select Preconditions:</span>
+			<br />
+		</g:HTML>
+		<g:HorizontalPanel>
+			<g:cell verticalAlignment="ALIGN_MIDDLE">
+				<g:HTML>Actions:</g:HTML>
+			</g:cell>
+			<g:cell>
+				<g:VerticalPanel width="5px" />
+			</g:cell>
+			<g:Button ui:field="notListed">Condition Not Listed</g:Button>
+			<g:Button ui:field="doneButton">Next Problem</g:Button>
+		</g:HorizontalPanel>
+		<g:HTMLPanel ui:field="loadingBar">
+			<table>
+				<tr>
+					<td valign="center">
+						<g:Image url="img/loader-small.gif" />
+					</td>
+					<td width="10px" />
+					<td valign="center">
+						<g:Label>Evaluating precondition set</g:Label>
+					</td>
+				</tr>
+			</table>
+		</g:HTMLPanel>
+		
+		<g:cell height="10px"><g:Label/></g:cell>
+	
+		<view:ClauseSelector ui:field="specs" width="380px" />
+		<g:cell height="20px"><g:Label/></g:cell>
+
+		<g:HTML>
+			<span class="subsubview-header">Frequently Asked Questions:</span>
+			<br />
+		</g:HTML>
+
+		<g:HTML><a href="faq.html#where-condition" class="info-link" target="blank">
+		Where is the condition I need?</a></g:HTML>
+
+		<g:HTMLPanel>
+			<g:HTML><a href="faq.html#satisfy-pre" class="info-link" target="blank">I can't satisfy a method's
+			precondition!</a></g:HTML>
+			<g:HTML><a href="faq.html#observers" class="info-link" target="blank">What is known about the methods
+			called by this method?</a></g:HTML>
+			<g:HTML><a href="faq.html#observer-ex" class="info-link" target="blank">Why does the system think that a method 
+			called by this method will throw an exception?</a></g:HTML>
+		</g:HTMLPanel>
+	</g:VerticalPanel>
+</ui:UiBinder> 
