@@ -23,7 +23,7 @@ eventually be moved to this repository.
 
 ## Notes
 
-** VeriWeb is not under active development. ** This repository
+**VeriWeb is not under active development.** This repository
 contains the latest snapshot of the VeriWeb development source code
 from our local repository. As such, the code may differ in certain
 places from the description in the publication. Known differences are:
