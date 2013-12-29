@@ -55,5 +55,7 @@ This software is licensed under [Matt Might's](http://matt.might.net/)
 wonderful [CRAPL academic
 license](http://matt.might.net/articles/crapl/).
 
+This software is based upon work supported by the National Science
+Foundation Graduate Research Fellowship under Grant No. DGE-0718124.
 
 
