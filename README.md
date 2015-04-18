@@ -1,6 +1,8 @@
 VeriWeb
 =======
 
+[![Build Status](https://travis-ci.org/twschiller/VeriWeb.svg)](https://travis-ci.org/twschiller/VeriWeb)
+
 VeriWeb is a web-based IDE for verification that decomposes the task
 of writing verifiable specifications into manageable subproblems.
 
