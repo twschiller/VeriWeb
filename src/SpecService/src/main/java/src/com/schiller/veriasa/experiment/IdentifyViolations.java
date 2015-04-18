@@ -15,7 +15,6 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import com.schiller.veriasa.distance.Normalize;
-import com.schiller.veriasa.distance.util.JmlSnoopUtil;
 import com.schiller.veriasa.distance.util.Pod;
 import com.schiller.veriasa.distance.util.PodUtil;
 import com.schiller.veriasa.executejml.ExecuteJml;
@@ -327,36 +326,9 @@ public class IdentifyViolations {
 		//File vlog = new File("/home/tws/results/StackAr.20110331.vlog");
 		//countAttemptedViolations(desc.get(proj).getBaseSpec(),vlog);
 		//System.exit(0);
+
+		// throw new RuntimeException("Eclipse experiment results not supported. Can't find the source / binaries for jml-snoop");
 		
-		List<Pod> ps = JmlSnoopUtil.loadData("StackAr", Common.VWORKER_ECLIPSE_RESULTS);
-		
-		for (String user : PodUtil.users(ps)){
-			
-			HashMap<ViolationKey, List<Pod>> vs = calculateViolations(PodUtil.forUser(ps, user));
-			
-			System.out.println(user + " has " + vs.size() + " violations");
-			
-			int pre = 0;
-			int post = 0;
-			
-			for (ViolationKey v : vs.keySet()){
-				
-				
-				if (!baseViolated.get(proj).contains(v)){
-					System.out.println(v);
-				
-					if (v.mode ==  ExecuteJml.ExecutionVisitor.Mode.PRE){
-						pre++;
-					}
-					if (v.mode ==  ExecuteJml.ExecutionVisitor.Mode.POST){
-						post++;
-					}
-				}	
-				
-			}	
-			
-			System.out.println("PRE: " + pre + " POST: " + post);
-			
-		}	
+		// List<Pod> ps = JmlSnoopUtil.loadData("StackAr", Common.VWORKER_ECLIPSE_RESULTS)
 	}
 }

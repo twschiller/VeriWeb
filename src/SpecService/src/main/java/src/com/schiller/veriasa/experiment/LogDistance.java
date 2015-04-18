@@ -26,7 +26,6 @@ import com.schiller.veriasa.distance.Distance;
 import com.schiller.veriasa.distance.Distance.DistanceType;
 import com.schiller.veriasa.distance.Normalize;
 import com.schiller.veriasa.distance.TypeDistance;
-import com.schiller.veriasa.distance.util.JmlSnoopUtil;
 import com.schiller.veriasa.distance.util.Pod;
 import com.schiller.veriasa.distance.util.PodUtil;
 import com.schiller.veriasa.util.ParseSource;
@@ -170,10 +169,12 @@ public class LogDistance {
 	}
 	
 	private static void doEclipse(String type, HashMap<String,TypeSpecification> targets, File out,ExperimentOptions opt) throws IOException{
-		List<Pod> ps = JmlSnoopUtil.loadData(type, opt.input);
-		log.info("Read " + ps.size() + " vworker Eclipse entries");	
-		DataForge<TypeDistance> forge = performExperiment(type, ps, targets,ExperimentOptions.VWORKER_ECLIPSE);
-		ExperimentUtil.output(out, forge, opt.interpolate);
+
+	    throw new RuntimeException("Eclipse experiments not supported. Can't find the source / binaries for jml-snoop");
+	    // List<Pod> ps = JmlSnoopUtil.loadData(type, opt.input);
+	    // log.info("Read " + ps.size() + " vworker Eclipse entries");	
+	    // DataForge<TypeDistance> forge = performExperiment(type, ps, targets,ExperimentOptions.VWORKER_ECLIPSE);
+	    // ExperimentUtil.output(out, forge, opt.interpolate);
 	}
 	
 	private static void doVeriWeb(String type, HashMap<String,TypeSpecification> targets, File out, ExperimentOptions opt) throws Exception{
