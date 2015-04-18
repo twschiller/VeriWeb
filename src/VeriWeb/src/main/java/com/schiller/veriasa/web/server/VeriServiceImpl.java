@@ -451,6 +451,8 @@ public class VeriServiceImpl extends RemoteServiceServlet implements VeriService
 					try {
 						File projDir = new File(WORKSPACE_DIR, name);
 						File projMetaDir = new File(projDir, "veriasa");
+
+						sharedLog.info("Loading project " + name + " from " + projDir);
 						
 						ProjectDescriptor descriptor = ProjectDescriptor.create(
 								name,
