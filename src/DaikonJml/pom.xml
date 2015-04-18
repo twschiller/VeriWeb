@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+			     http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <artifactId>veriweb-parent</artifactId>
+    <groupId>com.schiller.veriasa</groupId>
+    <version>1</version>
+  </parent>
+
+  <groupId>com.schiller.veriasa</groupId>
+  <artifactId>DaikonJml</artifactId>
+  <version>1</version>
+
+  <packaging>jar</packaging>
+  
+  <dependencies>
+    <dependency>
+      <groupId>daikon</groupId>
+      <artifactId>daikon</artifactId>
+      <scope>system</scope>
+      <systemPath>${user.home}/lib/daikon.jar</systemPath>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jmlspecs</groupId>
+      <artifactId>jmlspecs</artifactId>
+      <systemPath>${user.home}/lib/jml-release.jar</systemPath>
+      <scope>system</scope>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.extjs</groupId>
+      <artifactId>gxt</artifactId>
+      <version>2.3.1-gwt22</version>
+    </dependency>
+  </dependencies>
+  
+</project>

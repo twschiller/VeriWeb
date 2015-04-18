@@ -24,16 +24,18 @@ public class CollectDataProcessor extends FileIO.Processor {
                               ValueTuple vt, Integer nonce) {
 
     // Add orig and derived variables to the ValueTuple
-    FileIO.add_orig_variables(ppt, vt.vals, vt.mods, nonce);
-    FileIO.add_derived_variables(ppt, vt.vals, vt.mods);
+
+    throw new RuntimeException("Unimplemented: need to update for new daikon version");
+    // FileIO.add_orig_variables(ppt, vt.vals, vt.mods, nonce);
+    // FileIO.add_derived_variables(ppt, vt.vals, vt.mods);
 
     // Intern the sample, to save space, since we are storing them all.
-    vt = new ValueTuple(vt.vals, vt.mods);
+    // vt = new ValueTuple(vt.vals, vt.mods);
 
     // Add the sample to the map
-    if (! samples.containsKey(ppt)) {
-      samples.put(ppt, new ArrayList<ValueTuple>());
-    }
-    samples.get(ppt).add(vt);
+    // if (! samples.containsKey(ppt)) {
+    // samples.put(ppt, new ArrayList<ValueTuple>());
+    // }
+    // samples.get(ppt).add(vt);
   }
 }
