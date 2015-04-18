@@ -49,9 +49,61 @@
       <version>1</version>
     </dependency>
     <dependency>
-    <groupId>com.googlecode.java-diff-utils</groupId>
-    <artifactId>diffutils</artifactId>
-    <version>1.3.0</version>
+      <groupId>com.googlecode.java-diff-utils</groupId>
+      <artifactId>diffutils</artifactId>
+      <version>1.3.0</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>appassembler-maven-plugin</artifactId>
+        <version>1.8</version>
+	<executions>
+	  <execution>
+	    <id>assemble</id>
+	    <phase>package</phase>
+	    <goals>
+	      <goal>assemble</goal>
+	    </goals>
+	    
+	    <configuration>
+	      <platforms> 
+		<platform>unix</platform> 
+              </platforms> 
+	      <binFileExtensions>
+		<unix>.sh</unix>
+              </binFileExtensions>
+              <programs>
+		<program>
+		  <mainClass>com.schiller.veriasa.web.server.escj.server.EscJServer</mainClass>
+		  <id>veriasa</id>
+		  <commandLineArguments>
+		    <!-- PORT -->
+                    <commandLineArgument>4444</commandLineArgument>
+		    <!-- WORKSPACE_DIR -->
+                    <commandLineArgument>$WORKSPACE_DIR</commandLineArgument>
+		    <!-- LOG_DIR -->
+		    <commandLineArgument>$LOG_DIR</commandLineArgument>
+		    <!-- LOG_DIR -->
+		    <commandLineArgument>$LOG_DIR</commandLineArgument>
+		    <!-- ESCTOOLS_ROOT-->
+		    <commandLineArgument>$ESCTOOLS_ROOT</commandLineArgument>
+		    <!-- SIMPLIFY-->
+		    <commandLineArgument>Simplify-1.5.4.linux</commandLineArgument>
+		    <!-- JDK_DIR: the JDK 1.4 directory -->
+		    <commandLineArgument>$JDKDIR</commandLineArgument>
+		    <!-- OBSERVE -->
+		    <commandLineArgument>StackAr.java FixedSizeSet.java DisjSets.java QueueAr.java</commandLineArgument>
+		  </commandLineArguments>
+		</program>
+              </programs>
+            </configuration>
+	  </execution>
+	</executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

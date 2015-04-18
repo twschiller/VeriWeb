@@ -1,0 +1,28 @@
+<log4j:event logger="escj-server" timestamp="1429377199283" level="INFO" thread="main">
+<log4j:message><![CDATA[Port:4444]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199285" level="INFO" thread="main">
+<log4j:message><![CDATA[Workspace:Simplify-1.5.4.linux]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199285" level="INFO" thread="main">
+<log4j:message><![CDATA[Log Directory:/Users/tschiller/projects/VeriWeb/src/SpecService/StackAr.java]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199285" level="INFO" thread="main">
+<log4j:message><![CDATA[ESCJ Tools:FixedSizeSet.java]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199285" level="INFO" thread="main">
+<log4j:message><![CDATA[Simplify:DisjSets.java]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199285" level="INFO" thread="main">
+<log4j:message><![CDATA[Java:QueueAr.java]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="escj-server" timestamp="1429377199300" level="INFO" thread="main">
+<log4j:message><![CDATA[Listening on port 4444]]></log4j:message>
+</log4j:event>
+
