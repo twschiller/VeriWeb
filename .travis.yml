@@ -4,4 +4,6 @@ before_install:
  - wget https://dl.dropboxusercontent.com/u/861293/veriweb/lib/jml-release.jar
  - mvn install:install-file -Dfile=jml-release.jar -DgroupId=org.jmlspecs -DartifactId=jml-release -Dversion=1.38 -Dpackaging=jar
  - wget https://dl.dropboxusercontent.com/u/861293/veriweb/lib/daikon.jar
- - mvn install:install-file -Dfile=daikon.jar -DgroupId=daikon -DartifactId=daikon -Dversion=5.0 -Dpackaging=jar
+ - mvn install:install-file -Dfile=daikon.jar -DgroupId=daikon -DartifactId=daikon -Dversion=4.6.4 -Dpackaging=jar
+ - wget https://dl.dropboxusercontent.com/u/861293/veriweb/lib/mobius.escjava2.esctools_2.0.22.jar
+ - mvn install:install-file -Dfile=mobius.escjava2.esctools_2.0.22.jar -DgroupId=mobius.escjava2 -DartifactId=esctools2 -Dversion=2.0.22 -Dpackaging=jar

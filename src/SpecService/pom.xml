@@ -21,7 +21,7 @@
     <dependency>
       <groupId>daikon</groupId>
       <artifactId>daikon</artifactId>
-      <version>5.0</version>
+      <version>4.6.4</version>
     </dependency>
     <dependency>
       <groupId>org.jmlspecs</groupId>
@@ -29,11 +29,9 @@
       <version>1.38</version>
     </dependency>
     <dependency>
-      <groupId>mobious.escjava2</groupId>
+      <groupId>mobius.escjava2</groupId>
       <artifactId>esctools2</artifactId>
       <version>2.0.22</version>
-      <scope>system</scope>
-      <systemPath>${user.home}/lib/mobius.escjava2.esctools_2.0.22.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.schiller.veriasa</groupId>
