@@ -5,4 +5,3 @@ before_install:
 	mvn install:install-file -Dfile=jml-release.jar -DgroupId=org.jmlspecs -DartifactId=jml-release -Dversion=1.38 -Dpackaging=jar
 	wget https://dl.dropboxusercontent.com/u/861293/veriweb/lib/daikon.jar
 	mvn install:install-file -Dfile=daikon.jar -DgroupId=daikon -DartifactId=daikon -Dversion=5.0 -Dpackaging=jar
-

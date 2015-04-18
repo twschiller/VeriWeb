@@ -21,16 +21,12 @@
     <dependency>
       <groupId>daikon</groupId>
       <artifactId>daikon</artifactId>
-      <scope>system</scope>
-      <systemPath>${user.home}/lib/daikon.jar</systemPath>
-      <version>1.0</version>
+      <version>5.0</version>
     </dependency>
     <dependency>
-      <groupId>jmlspecs</groupId>
-      <artifactId>jmlspecs</artifactId>
-      <systemPath>${user.home}/lib/jml-release.jar</systemPath>
-      <scope>system</scope>
-      <version>1.0</version>
+      <groupId>org.jmlspecs</groupId>
+      <artifactId>jml-release</artifactId>
+      <version>1.38</version>
     </dependency>
     <dependency>
       <groupId>com.extjs</groupId>
