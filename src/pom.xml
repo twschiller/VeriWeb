@@ -27,6 +27,7 @@
   <modules>
     <module>LibVeriAsa</module>
     <module>DaikonJml</module>
+    <module>VeriWebCommon</module>
     <module>VeriWeb</module>
     <module>SpecService</module>
   </modules>

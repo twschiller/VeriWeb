@@ -15,6 +15,8 @@ import com.schiller.veriasa.web.server.logging.LogEntry;
 import com.schiller.veriasa.web.server.logging.ProblemAction;
 import com.schiller.veriasa.web.server.logging.ProblemAction.ActionType;
 import com.schiller.veriasa.web.shared.core.ProjectSpecification;
+import com.schiller.veriasa.web.shared.config.SharedConfig;
+
 
 /**
  * A VeriWeb user
@@ -141,9 +143,11 @@ public class User implements Serializable {
 	}
 	
 	private void logProblemAction(ActionType action){
-		VeriServiceImpl.tryLog(new LogEntry(
-				new ProblemAction(this, activeProblem.getProblem(), action), 
-				project));
+	    throw new RuntimeException("Logging of problem actions broke during project refactoring");
+	    // TODO: renable (disabled during Maven setup)
+	    // VeriServiceImpl.tryLog(new LogEntry(
+	    //			new ProblemAction(this, activeProblem.getProblem(), action), 
+	    //			project));
 	}
 	
 	/**
@@ -186,7 +190,7 @@ public class User implements Serializable {
 	 */
 	public boolean isAlive(){
 		synchronized(lastAlive){
-			return (System.currentTimeMillis() - lastAlive) < VeriServiceImpl.IS_ALIVE_TIMEOUT;
+			return (System.currentTimeMillis() - lastAlive) < SharedConfig.IS_ALIVE_TIMEOUT;
 		}
 	}
 	

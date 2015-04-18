@@ -12,12 +12,25 @@
   </parent>
 
   <groupId>com.schiller.veriasa</groupId>
-  <artifactId>LibVeriAsa</artifactId>
+  <artifactId>VeriWebCommon</artifactId>
   <version>1</version>
 
   <packaging>jar</packaging>
 
-  <build>
+  <dependencies>
+  <dependency>
+      <groupId>com.schiller.veriasa</groupId>
+      <artifactId>DaikonJml</artifactId>
+      <version>1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.schiller.veriasa</groupId>
+      <artifactId>LibVeriAsa</artifactId>
+      <version>1</version>
+    </dependency>
+  </dependencies>
+
+<build>
    <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -34,5 +47,5 @@
       </plugin>
     </plugins>
   </build>
-
+  
 </project>

@@ -24,6 +24,7 @@ import com.schiller.veriasa.web.shared.core.ProjectSpecification;
 import com.schiller.veriasa.web.shared.escj.ProjectResult;
 import com.schiller.veriasa.web.shared.escj.VerificationRequest;
 import com.schiller.veriasa.web.shared.intelli.IntelliMap;
+import com.schiller.veriasa.web.shared.config.SharedConfig;
 
 import daikon.FileIO;
 import daikon.PptMap;
@@ -98,7 +99,7 @@ public class ProjectDescriptor implements Serializable {
 		
 		result.lineOffsets = populateLineOffsets(workspaceDir, result.baseSpec);
 				
-		EscJClient client = new EscJClient(VeriServiceImpl.ESCJ_SERVER_HOST, VeriServiceImpl.ESCJ_SERVER_PORT);
+		EscJClient client = new EscJClient(SharedConfig.ESCJ_SERVER_HOST, SharedConfig.ESCJ_SERVER_PORT);
 		result.baseResult = client.tryProjectSpec(new VerificationRequest(result.baseSpec));
 		
 		result.signatures = new ArrayList<String>(Collections2.transform(Util.allMethods(result.baseSpec), new Function<MethodContract,String>(){

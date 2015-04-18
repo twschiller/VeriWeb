@@ -13,7 +13,6 @@
   <groupId>com.schiller.veriasa</groupId>
   <artifactId>VeriWeb</artifactId>
   <version>1</version>
-
   <packaging>war</packaging>
 
   <dependencies>
@@ -49,6 +48,11 @@
       <artifactId>LibVeriAsa</artifactId>
       <version>1</version>
     </dependency>
+      <dependency>
+      <groupId>com.schiller.veriasa</groupId>
+      <artifactId>VeriWebCommon</artifactId>
+      <version>1</version>
+    </dependency>
   </dependencies>
   
   <build>
@@ -67,12 +71,13 @@
         </executions>
 
 	<configuration>
-       	<compileSourcesArtifacts>
-          <artifact>com.schiller.veriasa:DaikonJml</artifact>
-	  <artifact>com.schiller.veriasa:LibVeriAsa</artifact>
-        </compileSourcesArtifacts>
-       </configuration>
+       	  <compileSourcesArtifacts>
+            <artifact>com.schiller.veriasa:DaikonJml</artifact>
+	    <artifact>com.schiller.veriasa:LibVeriAsa</artifact>
+	    <artifact>com.schiller.veriasa:VeriWebCommon</artifact>
+          </compileSourcesArtifacts>
+	</configuration>
       </plugin>
-    </plugins>
+     </plugins>
   </build>     
 </project>

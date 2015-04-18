@@ -15,4 +15,9 @@ public final class SharedConfig {
 	 * True iff Mechanical Turk users are each given their own project
 	 */
 	public static final boolean MTURK_OWNS_PROJECT = true;
+
+       	public static final String ESCJ_SERVER_HOST = "127.0.0.1";
+        public static final int ESCJ_SERVER_PORT = 4444;
+
+        public static final int IS_ALIVE_TIMEOUT = 3 * STAY_ALIVE_INTERVAL;
 }

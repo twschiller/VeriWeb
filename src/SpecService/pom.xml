@@ -45,7 +45,7 @@
     </dependency>
     <dependency>
       <groupId>com.schiller.veriasa</groupId>
-      <artifactId>VeriWeb</artifactId>
+      <artifactId>VeriWebCommon</artifactId>
       <version>1</version>
     </dependency>
     <dependency>
