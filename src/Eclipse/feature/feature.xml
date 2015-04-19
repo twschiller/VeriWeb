@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="edu.washington.cs.plse.verieclipse.feature"
+      label="VeriWeb"
+      version="1.0.0.qualifier"
+      provider-name="University of Washington PLSE">
+
+   <description url="https://github.com/twschiller/VeriWeb">
+      Eclipse plugins for creating VeriWeb projects
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="https://raw.githubusercontent.com/twschiller/VeriWeb/master/LICENSE">
+      THE CRAPL v0 BETA 1
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui"/>
+   </requires>
+
+   <plugin
+         id="edu.washington.cs.plse.verieclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+</feature>

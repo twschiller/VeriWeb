@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.washington.cs.plse.verieclipse.feature_1.0.0.qualifier.jar" id="edu.washington.cs.plse.verieclipse.feature" version="1.0.0.qualifier">
+      <category name="veriweb.category"/>
+   </feature>
+   <category-def name="veriweb.category" label="VeriWeb"/>
+</site>

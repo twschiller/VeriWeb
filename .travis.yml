@@ -10,7 +10,7 @@ before_install:
 
 script:
  - mvn clean install
- - cd src/VeriEclipse
+ - cd src/Eclipse
  - mvn clean install
 
  
