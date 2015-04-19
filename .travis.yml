@@ -8,4 +8,9 @@ before_install:
  - wget https://dl.dropboxusercontent.com/u/861293/veriweb/lib/mobius.escjava2.esctools_2.0.22.jar
  - mvn install:install-file -Dfile=mobius.escjava2.esctools_2.0.22.jar -DgroupId=mobius.escjava2 -DartifactId=esctools2 -Dversion=2.0.22 -Dpackaging=jar
 
-script: mvn package
+script:
+ - mvn clean install
+ - cd src/VeriEclipse
+ - mvn clean install
+
+ 

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1429402449491
+Build-Jdk: 1.8.0_25
+Built-By: tschiller
+Bundle-ManifestVersion: 2
+Bundle-Name: LibVeriAsa
+Bundle-SymbolicName: com.schiller.veriasa.LibVeriAsa
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.schiller.veriasa.callgraph;version="1.0.0",com.schil
+ ler.veriasa.web.shared.core;version="1.0.0",com.schiller.veriasa.web.sh
+ ared.escj;uses:="com.schiller.veriasa.web.shared.core";version="1.0.0",
+ com.schiller.veriasa.web.shared.intelli;version="1.0.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-2.3.0.201405100607
