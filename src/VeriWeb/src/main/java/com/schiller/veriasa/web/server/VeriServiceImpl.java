@@ -129,7 +129,7 @@ public class VeriServiceImpl extends RemoteServiceServlet implements VeriService
 	private static final String FORCE_PROBLEM = null;
 	
 	private static final String DEFAULT_PROJECT = "FixedSizeSet";
-	private static final String [] PROJECT_NAMES = new String[]{ "FixedSizeSet" , "QueueAr" };
+	private static final String [] PROJECT_NAMES = new String[]{ "FixedSizeSet" };
 
 	private static final Set<String> idsSeen = Collections.synchronizedSet(new HashSet<String>());
 	
@@ -414,7 +414,7 @@ public class VeriServiceImpl extends RemoteServiceServlet implements VeriService
 			throw new RuntimeException("Error initializing configuration.");
 		}
 		synchronized(configOk){
-			if (!configOk){
+		    	if (!configOk){
 				
 				BasicConfigurator.configure();
 				

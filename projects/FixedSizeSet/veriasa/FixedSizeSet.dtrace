@@ -1,0 +1,1567 @@
+// Declarations for FixedSizeSetDriver
+// Declarations written Mon Mar 28 13:21:38 PDT 2011
+
+decl-version 2.0
+var-comparability none
+
+ppt FixedSizeSetDriver.FixedSizeSetDriver():::ENTER
+ppt-type enter
+
+ppt FixedSizeSetDriver.FixedSizeSetDriver():::EXIT2
+ppt-type subexit
+parent parent FixedSizeSetDriver:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetDriver
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetDriver:::OBJECT 1
+
+ppt FixedSizeSetDriver.main(java.lang.String[]):::ENTER
+ppt-type enter
+  variable args
+    var-kind variable 
+    dec-type java.lang.String[]
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable args.getClass()
+    var-kind function getClass()
+    enclosing-var args
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable args[..]
+    var-kind array 
+    enclosing-var args
+    array 1
+    dec-type java.lang.String[]
+    rep-type hashcode[]
+    comparability 22
+  variable args[..].toString
+    var-kind function toString()
+    enclosing-var args[..]
+    array 1
+    dec-type java.lang.String[]
+    rep-type java.lang.String[]
+    flags synthetic to_string
+    comparability 22
+
+ppt FixedSizeSetDriver.main(java.lang.String[]):::EXIT14
+ppt-type subexit
+  variable args
+    var-kind variable 
+    dec-type java.lang.String[]
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable args.getClass()
+    var-kind function getClass()
+    enclosing-var args
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable args[..]
+    var-kind array 
+    enclosing-var args
+    array 1
+    dec-type java.lang.String[]
+    rep-type hashcode[]
+    comparability 22
+  variable args[..].toString
+    var-kind function toString()
+    enclosing-var args[..]
+    array 1
+    dec-type java.lang.String[]
+    rep-type java.lang.String[]
+    flags synthetic to_string
+    comparability 22
+
+ppt FixedSizeSetDriver:::OBJECT
+ppt-type object
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetDriver
+    rep-type hashcode
+    flags is_param
+    comparability 22
+
+FixedSizeSetDriver.main(java.lang.String[]):::ENTER
+this_invocation_nonce
+0
+args
+10969598
+1
+args.getClass()
+"java.lang.String[]"
+1
+args[..]
+[]
+1
+args[..].toString
+[]
+1
+
+ppt FixedSizeSetCheck.FixedSizeSetCheck():::ENTER
+ppt-type enter
+
+ppt FixedSizeSetCheck.FixedSizeSetCheck():::EXIT5
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkConstructor():::ENTER
+ppt-type enter
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkConstructor():::EXIT18
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkAdd():::ENTER
+ppt-type enter
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkAdd():::EXIT34
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkUnion():::ENTER
+ppt-type enter
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkUnion():::EXIT43
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkFillDigits():::ENTER
+ppt-type enter
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkFillDigits():::EXIT52
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkSimilar():::ENTER
+ppt-type enter
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck.checkSimilar():::EXIT70
+ppt-type subexit
+parent parent FixedSizeSetCheck:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSetCheck:::OBJECT 1
+
+ppt FixedSizeSetCheck:::OBJECT
+ppt-type object
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSetCheck
+    rep-type hashcode
+    flags is_param
+    comparability 22
+
+FixedSizeSetCheck.FixedSizeSetCheck():::ENTER
+this_invocation_nonce
+1
+
+FixedSizeSetCheck.FixedSizeSetCheck():::EXIT5
+this_invocation_nonce
+1
+this
+32079775
+1
+
+FixedSizeSetCheck.checkConstructor():::ENTER
+this_invocation_nonce
+2
+this
+32079775
+1
+
+ppt FixedSizeSet.FixedSizeSet():::ENTER
+ppt-type enter
+
+ppt FixedSizeSet.FixedSizeSet():::EXIT16
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+
+ppt FixedSizeSet.add(int):::ENTER
+ppt-type enter
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable n
+    var-kind variable 
+    dec-type int
+    rep-type int
+    flags is_param
+    comparability 22
+
+ppt FixedSizeSet.add(int):::EXIT24
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable n
+    var-kind variable 
+    dec-type int
+    rep-type int
+    flags is_param
+    comparability 22
+
+ppt FixedSizeSet.contains(int):::ENTER
+ppt-type enter
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable n
+    var-kind variable 
+    dec-type int
+    rep-type int
+    flags is_param
+    comparability 22
+
+ppt FixedSizeSet.contains(int):::EXIT31
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable n
+    var-kind variable 
+    dec-type int
+    rep-type int
+    flags is_param
+    comparability 22
+  variable return
+    var-kind return 
+    dec-type boolean
+    rep-type boolean
+    comparability 22
+
+ppt FixedSizeSet.union(FixedSizeSet):::ENTER
+ppt-type enter
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable other
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable other.bits
+    var-kind field bits
+    enclosing-var other
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable other.bits[..]
+    var-kind array 
+    enclosing-var other.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+
+ppt FixedSizeSet.union(FixedSizeSet):::EXIT44
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable other
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable other.bits
+    var-kind field bits
+    enclosing-var other
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable other.bits[..]
+    var-kind array 
+    enclosing-var other.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+
+ppt FixedSizeSet.fillDigits(java.lang.Object[],\_java.lang.Object,\_java.lang.Object):::ENTER
+ppt-type enter
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable digits
+    var-kind variable 
+    dec-type java.lang.Object[]
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable digits.getClass()
+    var-kind function getClass()
+    enclosing-var digits
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable digits[..]
+    var-kind array 
+    enclosing-var digits
+    array 1
+    dec-type java.lang.Object[]
+    rep-type hashcode[]
+    comparability 22
+  variable zero
+    var-kind variable 
+    dec-type java.lang.Object
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable zero.getClass()
+    var-kind function getClass()
+    enclosing-var zero
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable one
+    var-kind variable 
+    dec-type java.lang.Object
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable one.getClass()
+    var-kind function getClass()
+    enclosing-var one
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+
+ppt FixedSizeSet.fillDigits(java.lang.Object[],\_java.lang.Object,\_java.lang.Object):::EXIT57
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable digits
+    var-kind variable 
+    dec-type java.lang.Object[]
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable digits.getClass()
+    var-kind function getClass()
+    enclosing-var digits
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable digits[..]
+    var-kind array 
+    enclosing-var digits
+    array 1
+    dec-type java.lang.Object[]
+    rep-type hashcode[]
+    comparability 22
+  variable zero
+    var-kind variable 
+    dec-type java.lang.Object
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable zero.getClass()
+    var-kind function getClass()
+    enclosing-var zero
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+  variable one
+    var-kind variable 
+    dec-type java.lang.Object
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable one.getClass()
+    var-kind function getClass()
+    enclosing-var one
+    dec-type java.lang.Class
+    rep-type java.lang.String
+    flags synthetic classname
+    comparability 22
+
+ppt FixedSizeSet.similar(FixedSizeSet):::ENTER
+ppt-type enter
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable other
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable other.bits
+    var-kind field bits
+    enclosing-var other
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable other.bits[..]
+    var-kind array 
+    enclosing-var other.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+
+ppt FixedSizeSet.similar(FixedSizeSet):::EXIT70
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable other
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable other.bits
+    var-kind field bits
+    enclosing-var other
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable other.bits[..]
+    var-kind array 
+    enclosing-var other.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+  variable return
+    var-kind return 
+    dec-type boolean
+    rep-type boolean
+    comparability 22
+
+ppt FixedSizeSet.similar(FixedSizeSet):::EXIT73
+ppt-type subexit
+parent parent FixedSizeSet:::OBJECT 1
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+    parent FixedSizeSet:::OBJECT 1
+  variable other
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable other.bits
+    var-kind field bits
+    enclosing-var other
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable other.bits[..]
+    var-kind array 
+    enclosing-var other.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+  variable return
+    var-kind return 
+    dec-type boolean
+    rep-type boolean
+    comparability 22
+
+ppt FixedSizeSet:::OBJECT
+ppt-type object
+  variable this
+    var-kind variable 
+    dec-type FixedSizeSet
+    rep-type hashcode
+    flags is_param
+    comparability 22
+  variable this.bits
+    var-kind field bits
+    enclosing-var this
+    dec-type boolean[]
+    rep-type hashcode
+    comparability 22
+  variable this.bits[..]
+    var-kind array 
+    enclosing-var this.bits
+    array 1
+    dec-type boolean[]
+    rep-type boolean[]
+    comparability 22
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+3
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+3
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+4
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+0
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+4
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+0
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+5
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+1
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+5
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+1
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+6
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+2
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+6
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+2
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+7
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+3
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+7
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+3
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+8
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+4
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+8
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+4
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+9
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+5
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+9
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+5
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+10
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+6
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+10
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+6
+1
+return
+false
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+11
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+7
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+11
+this
+27667505
+1
+this.bits
+21083505
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+7
+1
+return
+false
+1
+
+FixedSizeSetCheck.checkConstructor():::EXIT18
+this_invocation_nonce
+2
+this
+32079775
+1
+
+FixedSizeSetCheck.checkAdd():::ENTER
+this_invocation_nonce
+12
+this
+32079775
+1
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+13
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+13
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.add(int):::ENTER
+this_invocation_nonce
+14
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false false false false false false]
+1
+n
+3
+1
+
+FixedSizeSet.add(int):::EXIT24
+this_invocation_nonce
+14
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false true false false false false]
+1
+n
+3
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+15
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false true false false false false]
+1
+n
+3
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+15
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false true false false false false]
+1
+n
+3
+1
+return
+true
+1
+
+FixedSizeSet.contains(int):::ENTER
+this_invocation_nonce
+16
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false true false false false false]
+1
+n
+2
+1
+
+FixedSizeSet.contains(int):::EXIT31
+this_invocation_nonce
+16
+this
+14886914
+1
+this.bits
+22528701
+1
+this.bits[..]
+[false false false true false false false false]
+1
+n
+2
+1
+return
+false
+1
+
+FixedSizeSetCheck.checkAdd():::EXIT34
+this_invocation_nonce
+12
+this
+32079775
+1
+
+FixedSizeSetCheck.checkFillDigits():::ENTER
+this_invocation_nonce
+17
+this
+32079775
+1
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+18
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+18
+this
+11678224
+1
+this.bits
+16053322
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.fillDigits(java.lang.Object[], java.lang.Object, java.lang.Object):::ENTER
+this_invocation_nonce
+19
+this
+11678224
+1
+this.bits
+16053322
+1
+this.bits[..]
+[false false false false false false false false]
+1
+digits
+30562042
+1
+digits.getClass()
+"java.lang.Object[]"
+1
+digits[..]
+[null null null null null null null null]
+1
+zero
+4999541
+1
+zero.getClass()
+"java.lang.String"
+1
+one
+6997089
+1
+one.getClass()
+"java.lang.String"
+1
+
+FixedSizeSet.fillDigits(java.lang.Object[], java.lang.Object, java.lang.Object):::EXIT57
+this_invocation_nonce
+19
+this
+11678224
+1
+this.bits
+16053322
+1
+this.bits[..]
+[false false false false false false false false]
+1
+digits
+30562042
+1
+digits.getClass()
+"java.lang.Object[]"
+1
+digits[..]
+[4999541 4999541 4999541 4999541 4999541 4999541 4999541 4999541]
+1
+zero
+4999541
+1
+zero.getClass()
+"java.lang.String"
+1
+one
+6997089
+1
+one.getClass()
+"java.lang.String"
+1
+
+FixedSizeSetCheck.checkFillDigits():::EXIT52
+this_invocation_nonce
+17
+this
+32079775
+1
+
+FixedSizeSetCheck.checkSimilar():::ENTER
+this_invocation_nonce
+20
+this
+32079775
+1
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+21
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+21
+this
+25352765
+1
+this.bits
+29751107
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.similar(FixedSizeSet):::ENTER
+this_invocation_nonce
+22
+this
+25352765
+1
+this.bits
+29751107
+1
+this.bits[..]
+[false false false false false false false false]
+1
+other
+null
+1
+other.bits
+nonsensical
+2
+other.bits[..]
+nonsensical
+2
+
+FixedSizeSet.similar(FixedSizeSet):::ENTER
+this_invocation_nonce
+23
+this
+25352765
+1
+this.bits
+29751107
+1
+this.bits[..]
+[false false false false false false false false]
+1
+other
+25352765
+1
+other.bits
+29751107
+1
+other.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.similar(FixedSizeSet):::EXIT73
+this_invocation_nonce
+23
+this
+25352765
+1
+this.bits
+29751107
+1
+this.bits[..]
+[false false false false false false false false]
+1
+other
+25352765
+1
+other.bits
+29751107
+1
+other.bits[..]
+[false false false false false false false false]
+1
+return
+true
+1
+
+FixedSizeSetCheck.checkSimilar():::EXIT70
+this_invocation_nonce
+20
+this
+32079775
+1
+
+FixedSizeSetCheck.checkUnion():::ENTER
+this_invocation_nonce
+24
+this
+32079775
+1
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+25
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+25
+this
+32278793
+1
+this.bits
+1623405
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.FixedSizeSet():::ENTER
+this_invocation_nonce
+26
+
+FixedSizeSet.FixedSizeSet():::EXIT16
+this_invocation_nonce
+26
+this
+4815156
+1
+this.bits
+28606871
+1
+this.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.union(FixedSizeSet):::ENTER
+this_invocation_nonce
+27
+this
+32278793
+1
+this.bits
+1623405
+1
+this.bits[..]
+[false false false false false false false false]
+1
+other
+4815156
+1
+other.bits
+28606871
+1
+other.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSet.union(FixedSizeSet):::EXIT44
+this_invocation_nonce
+27
+this
+32278793
+1
+this.bits
+1623405
+1
+this.bits[..]
+[false false false false false false false false]
+1
+other
+4815156
+1
+other.bits
+28606871
+1
+other.bits[..]
+[false false false false false false false false]
+1
+
+FixedSizeSetCheck.checkUnion():::EXIT43
+this_invocation_nonce
+24
+this
+32079775
+1
+
+FixedSizeSetDriver.main(java.lang.String[]):::EXIT14
+this_invocation_nonce
+0
+args
+10969598
+1
+args.getClass()
+"java.lang.String[]"
+1
+args[..]
+[]
+1
+args[..].toString
+[]
+1
+
+
+# EOF (added by Runtime.addShutdownHook)

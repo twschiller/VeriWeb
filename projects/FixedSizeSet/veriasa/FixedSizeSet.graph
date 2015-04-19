@@ -1,0 +1,37 @@
+Node: FixedSizeSet.FixedSizeSet()
+Node: FixedSizeSet.add(int)
+Node: FixedSizeSet.contains(int)
+Node: FixedSizeSet.union(FixedSizeSet)
+Node: FixedSizeSet.fillDigits(Object[], java.lang.Object, java.lang.Object)
+Node: FixedSizeSet.similar(FixedSizeSet)
+
+Node: FixedSizeSetCheck.checkConstructor()
+Node: FixedSizeSetCheck.checkAdd()
+Node: FixedSizeSetCheck.checkUnion()
+Node: FixedSizeSetCheck.checkFillDigits()
+Node: FixedSizeSetCheck.checkSimilar()
+
+Edge: FixedSizeSet.add(int) -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSet.contains(int) -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSet.union(FixedSizeSet) -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSet.fillDigits(Object[], java.lang.Object, java.lang.Object) -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSet.similar(FixedSizeSet) -> FixedSizeSet.FixedSizeSet()
+
+Edge: FixedSizeSetCheck.checkConstructor() -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSetCheck.checkConstructor() -> FixedSizeSet.contains(int)
+
+Edge: FixedSizeSetCheck.checkAdd() -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSetCheck.checkAdd() -> FixedSizeSet.contains(int)
+Edge: FixedSizeSetCheck.checkAdd() -> FixedSizeSet.add(int)
+
+Edge: FixedSizeSetCheck.checkUnion() -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSetCheck.checkUnion() -> FixedSizeSet.union(FixedSizeSet)
+
+Edge: FixedSizeSetCheck.checkFillDigits() -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSetCheck.checkFillDigits() -> FixedSizeSet.fillDigits(Object[], java.lang.Object, java.lang.Object)
+
+Edge: FixedSizeSetCheck.checkSimilar() -> FixedSizeSet.FixedSizeSet()
+Edge: FixedSizeSetCheck.checkSimilar() -> FixedSizeSet.similar(FixedSizeSet)
+
+
+

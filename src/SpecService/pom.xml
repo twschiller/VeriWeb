@@ -83,20 +83,18 @@
 		  <commandLineArguments>
 		    <!-- PORT -->
                     <commandLineArgument>4444</commandLineArgument>
-		    <!-- WORKSPACE_DIR -->
-                    <commandLineArgument>$WORKSPACE_DIR</commandLineArgument>
+		    <!-- VERIASA_PROJS: directory where the projects reside-->
+                    <commandLineArgument>$VERIASA_PROJS</commandLineArgument>
 		    <!-- LOG_DIR -->
-		    <commandLineArgument>$LOG_DIR</commandLineArgument>
-		    <!-- LOG_DIR -->
-		    <commandLineArgument>$LOG_DIR</commandLineArgument>
+		    <commandLineArgument>$VERIASA_LOG_DIR</commandLineArgument>
 		    <!-- ESCTOOLS_ROOT-->
 		    <commandLineArgument>$ESCTOOLS_ROOT</commandLineArgument>
 		    <!-- SIMPLIFY-->
-		    <commandLineArgument>Simplify-1.5.4.linux</commandLineArgument>
-		    <!-- JDK_DIR: the JDK 1.4 directory -->
-		    <commandLineArgument>$JDKDIR</commandLineArgument>
+		    <commandLineArgument>$SIMPLIFY</commandLineArgument>
+		    <!-- JDK14: the JDK 1.4 directory -->
+		    <commandLineArgument>$JDK14</commandLineArgument>
 		    <!-- OBSERVE -->
-		    <commandLineArgument>StackAr.java FixedSizeSet.java DisjSets.java QueueAr.java</commandLineArgument>
+		    <commandLineArgument>FixedSizeSet.java</commandLineArgument>
 		  </commandLineArguments>
 		</program>
               </programs>

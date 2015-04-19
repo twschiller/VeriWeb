@@ -1,0 +1,46 @@
+===========================================================================
+FixedSizeSet:::OBJECT
+bits.length == 8
+===========================================================================
+FixedSizeSet.FixedSizeSet():::ENTER
+capacity >= 0
+===========================================================================
+FixedSizeSet.FixedSizeSet():::EXIT1
+(\forall int i; 0 <= i && i < bits.length; (bits[i] == false))
+===========================================================================
+FixedSizeSet.add(int):::ENTER
+n < bits.length
+===========================================================================
+FixedSizeSet.add(int):::EXIT2
+bits[n] == true
+===========================================================================
+FixedSizeSet.contains(int):::ENTER
+n >= 0
+n < bits.length
+===========================================================================
+FixedSizeSet.contains(int):::EXIT3
+\result == bits[n]
+===========================================================================
+FixedSizeSet.union(FixedSizeSet):::ENTER
+other != null
+===========================================================================
+FixedSizeSet.union(FixedSizeSet):::EXIT4
+bits[0] == (\old(bits[0]) || other.bits[0])
+===========================================================================
+FixedSizeSet.fillDigits(java.lang.Object[],java.lang.Object,java.lang.Object):::ENTER
+digits != null
+digits.length >= bits.length
+===========================================================================
+FixedSizeSet.fillDigits(java.lang.Object[],java.lang.Object,java.lang.Object):::EXIT5
+===========================================================================
+FixedSizeSet.similar(FixedSizeSet):::ENTER
+===========================================================================
+FixedSizeSet.similar(FixedSizeSet):::EXIT6
+other != null
+===========================================================================
+FixedSizeSet.fillDigits(Object[],java.lang.Object,java.lang.Object):::ENTER
+digits != null
+digits.length >= bits.length
+===========================================================================
+FixedSizeSet.fillDigits(Object[],java.lang.Object,java.lang.Object):::EXIT5
+
